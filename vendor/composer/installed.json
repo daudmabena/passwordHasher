@@ -1,0 +1,104 @@
+[
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "2469c6c1cfa5103d739660c7ebae03bfeb2b6f47"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/2469c6c1cfa5103d739660c7ebae03bfeb2b6f47",
+            "reference": "2469c6c1cfa5103d739660c7ebae03bfeb2b6f47",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "*",
+            "phpunit/phpunit": "4.0.*"
+        },
+        "time": "2014-04-09 16:44:59",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.pop3.php",
+                "class.smtp.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "rych/phpass",
+        "version": "v2.0.2-p1",
+        "version_normalized": "2.0.2.0-patch1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rchouinard/phpass.git",
+            "reference": "728bb4a912402593efa0242acba47b07fca64b96"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rchouinard/phpass/zipball/728bb4a912402593efa0242acba47b07fca64b96",
+            "reference": "728bb4a912402593efa0242acba47b07fca64b96",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.7"
+        },
+        "suggest": {
+            "ext-hash": "Enabling the hash extension allows you to combine the included hash adapters with HMAC for an extra layer of security."
+        },
+        "time": "2012-04-25 00:15:13",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Phpass": "library/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ryan Chouinard",
+                "email": "rchouinard@gmail.com",
+                "homepage": "http://ryanchouinard.com"
+            }
+        ],
+        "description": "PHP Password Library: Easy, secure password management for PHP",
+        "homepage": "http://rchouinard.github.com/phpass",
+        "keywords": [
+            "cryptography",
+            "password"
+        ]
+    }
+]
